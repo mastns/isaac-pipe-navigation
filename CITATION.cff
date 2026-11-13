@@ -1,0 +1,70 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "isaac-pipe-navigation"
+type: software
+abstract: >-
+  Isaac Sim / Isaac Lab simulation of a stereo-inertial pipeline inspection rover with
+  automatic spray marking (artificial visual features) and a multi-IMU ring, recording ROS 2 bags.
+authors:
+  - name: "The isaac-pipe-navigation authors"
+repository-code: "https://github.com/mastns/isaac-pipe-navigation"
+license: MIT
+keywords:
+  - Pipelines
+  - Visualization
+  - Cameras
+  - Inspection
+  - Robots
+  - Geometry
+  - Image sensors
+  - Trajectory
+  - Spraying
+  - Water
+  - IMU fusion
+  - localization
+  - pipeline systems
+  - robotics
+  - sensor fusion
+  - visual-inertial odometry
+  - Isaac Sim
+  - Isaac Lab
+  - ROS 2
+preferred-citation:
+  type: article
+  title: "Artificial Feature Generation and Optimal IMU Placement for VIO in Pipeline Inspection Robots"
+  authors:
+    - family-names: Geladaris
+      given-names: "A. S."
+    - family-names: Mastrogeorgiou
+      given-names: "A."
+    - family-names: Simatos
+      given-names: "O."
+    - family-names: Poulakakis
+      given-names: "I."
+    - family-names: Sfakiotakis
+      given-names: "M."
+    - family-names: Polygerinos
+      given-names: "P."
+  journal: "IEEE Access"
+  volume: 14
+  start: 115469
+  end: 115479
+  year: 2026
+  doi: "10.1109/ACCESS.2026.3716363"
+  keywords:
+    - Pipelines
+    - Visualization
+    - Cameras
+    - Inspection
+    - Robots
+    - Geometry
+    - Image sensors
+    - Trajectory
+    - Spraying
+    - Water
+    - IMU fusion
+    - localization
+    - pipeline systems
+    - robotics
+    - sensor fusion
+    - visual-inertial odometry

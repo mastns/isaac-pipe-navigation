@@ -1,0 +1,23 @@
+# simulator output
+rosbags/
+*.db3
+*.bag
+*.mcap
+
+# generated on first run (procedural textures, pixel-identical to those of the original script)
+assets/textures/
+
+# python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+*.egg-info/
+
+# editors / OS / logs
+.vscode/
+.idea/
+.DS_Store
+*.log

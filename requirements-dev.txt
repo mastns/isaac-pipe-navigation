@@ -1,0 +1,4 @@
+# Python packages for development: tests and linting.
+-r requirements.txt
+pytest>=8.2
+ruff==0.17.5

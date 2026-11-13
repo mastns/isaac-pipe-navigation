@@ -1,0 +1,15 @@
+[tool.pytest.ini_options]
+pythonpath = [".", "scripts"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+extend-exclude = ["docs"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "B", "I", "UP"]
+
+[tool.ruff.lint.per-file-ignores]
+# Isaac Sim requires the app to be launched before the omni / isaaclab imports, so late imports are intentional.
+"pipe_rover_sim.py" = ["E402", "I001"]
